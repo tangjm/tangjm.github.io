@@ -35,8 +35,11 @@ curl --help | grep -- -O
 # What does the '-h' flag do to the output of 'ls'?
 ls --help | grep -- -h
 
-# Ordinary command-line arguments and flags can also be used with '--', they just need to come first to prevent them from being interpreted as arguments to the command.
-# This prints some lines of context before and after looking up how the '-P' flag affects the 'grep' command.
+# Ordinary command-line arguments and flags can also be used with '--',
+# they just need to come first to prevent them from being interpreted
+# as arguments to the command.
+# This prints some lines of context before and after looking up
+# how the '-P' flag affects the 'grep' command.
 grep --help | grep -B 1 -A 2 -- -P
 ```
 
