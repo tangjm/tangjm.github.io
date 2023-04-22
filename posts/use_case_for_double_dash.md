@@ -1,5 +1,5 @@
 ---
-title: 'Real world use case for the '--' argument for CLI programs'
+title: 'Real world use case for the "--" argument for CLI programs'
 date: '2023-04-22'
 ---
 
