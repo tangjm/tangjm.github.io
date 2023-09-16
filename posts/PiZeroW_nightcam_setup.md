@@ -3,8 +3,6 @@ title: 'Nocturnal wildlife camera with Raspberry Pi'
 date: '2023-09-16' 
 ---
 
-# Budget noctural wildlife camera setup with Raspberry Pi.
-
 We use 'cron' and 'raspivid' to schedule night time recordings each day, saving video recordings to our Pi Zero W and then we download the videos from our Pi Zero W to our computer hard drive via WiFi. Optional video processing can be done with 'ffmpeg'.
 
 Items needed
@@ -115,4 +113,5 @@ We can then open the mp4 file in a video player like Windows Media Player.
 
 ### Further reading 
 [raspivid](https://www.raspberrypi.com/documentation/computers/camera_software.html#raspivid)
-[speeding up video with ffmpeg](http://trac.ffmpeg.org/wiki/How%20to%20speed%20up%20/%20slow%20down%20a%20video)
+
+[speed up video with ffmpeg](http://trac.ffmpeg.org/wiki/How%20to%20speed%20up%20/%20slow%20down%20a%20video)
