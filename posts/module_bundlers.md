@@ -9,3 +9,5 @@ It enables us to organise our front-end javascript into modules and use import/r
 A module bundler will take our collection of javascript files organised into modules and resolve all the import/export statements found in them by replacing them with the file contents they reference. The end result is a single javascript file with no occurrences of import/export statements that can be linked in your HTML and run in the browser. 
 
 The module bundler introduces a build step in your development workflow, which allows it to access your file system through NodeJS. It locates files referenced by import statements to perform the necessary replacements of import statements with their imported contents. And so, interestingly, NodeJS is also used in front-end applications nowadays, albeit as a development tool to help with code organisation. It has also been argued that it comes with performance benefits too. 
+
+The advantages of organising code into modules is that it becomes easier to see the exact dependencies for each javascript file. Getting the order of dependencies right becomes much easier too. And unused dependencies become easier to spot.
